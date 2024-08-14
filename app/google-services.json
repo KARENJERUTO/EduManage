@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "830811213008",
+    "project_id": "edumanage-32a18",
+    "storage_bucket": "edumanage-32a18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830811213008:android:73ee9adc966ee3fe5762d5",
+        "android_client_info": {
+          "package_name": "com.example.edumanage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOwgmjOjRCdca9wGzslXl_cbSERpJ86bw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

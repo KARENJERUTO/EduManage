@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="action_settings" type="id" />
+    <item name="action_dashboard" type="id" />
+    <item name="action_manage_teachers" type="id" />
+    <item name="action_manage_students" type="id" />
+    <item name="action_my_classes" type="id" />
+    <item name="action_attendance" type="id" />
+    <item name="action_my_courses" type="id" />
+    <item name="action_assignments" type="id" />
+</resources>

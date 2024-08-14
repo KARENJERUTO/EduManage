@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Solid fill color -->
+    <solid android:color="#FFA500" /> <!-- This sets the color to orange -->
+
+    <!-- Optional: Adding rounded corners -->
+    <corners android:radius="8dp" />
+
+    <!-- Optional: Adding a border -->
+    <stroke
+        android:width="2dp"
+        android:color="#FF4500" /> <!-- Border color (orange-red) -->
+
+    <!-- Optional: Adding padding -->
+    <padding
+        android:left="16dp"
+        android:top="16dp"
+        android:right="16dp"
+        android:bottom="16dp" />
+
+</shape>

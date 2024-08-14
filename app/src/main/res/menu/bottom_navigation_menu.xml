@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/adminDashboardFragment"
+        android:icon="@drawable/ic_dashboard"
+        android:title="Dashboard"
+         />
+
+    <item
+        android:id="@+id/teacherFragment"
+        android:icon="@drawable/ic_manage_teachers"
+        android:title="Manage Teachers"
+        />
+
+    <item
+        android:id="@+id/studentDashboardFragment"
+        android:icon="@drawable/ic_manage_students"
+        android:title="Manage Students"
+         />
+
+
+
+</menu>
