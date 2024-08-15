@@ -54,6 +54,8 @@ dependencies {
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
     implementation(libs.androidx.cardview)
+    implementation(libs.androidx.recyclerview)
+    implementation(libs.firebase.firestore.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -63,6 +65,6 @@ dependencies {
     implementation ("androidx.navigation:navigation-ui-ktx:2.5.3")
 
     implementation ("com.google.android.material:material:1.10.0")
-    //implementation ("androidx.cardview:cardview:1.0.0")
+
 
 }

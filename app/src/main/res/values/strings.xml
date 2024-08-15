@@ -2,5 +2,5 @@
     <string name="app_name">EduManage</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="select_your_role">Select Your Role</string>
+
 </resources>

@@ -8,4 +8,6 @@
     <item name="action_attendance" type="id" />
     <item name="action_my_courses" type="id" />
     <item name="action_assignments" type="id" />
+    <item name="action_studentDashboardFragment_to_assignmentsFragment" type="id" />
+    <item name="assignmentsFragment" type="id" />
 </resources>

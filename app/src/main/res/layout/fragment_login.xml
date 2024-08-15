@@ -44,9 +44,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/select_your_role"
+                android:text="Welcome to EduManage"
                 android:textColor="@android:color/black"
-                android:textSize="18sp"
+                android:textSize="20sp"
                 android:fontFamily=""
                 android:layout_gravity="center_horizontal"
                 android:paddingBottom="16dp" />
@@ -55,7 +55,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                app:endIconMode="password_toggle"
                 app:boxStrokeColor="@android:color/black"
                 android:hint="Email">
 
@@ -81,31 +80,6 @@
                     android:inputType="textPassword"/>
             </com.google.android.material.textfield.TextInputLayout>
 
-
-            <RadioGroup
-                android:id="@+id/role_radio_group"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <RadioButton
-                    android:id="@+id/radio_admin"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Admin" />
-
-                <RadioButton
-                    android:id="@+id/radio_teacher"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Teacher" />
-
-                <RadioButton
-                    android:id="@+id/radio_student"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Student" />
-            </RadioGroup>
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>

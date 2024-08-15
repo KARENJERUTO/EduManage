@@ -15,10 +15,19 @@
         android:id="@+id/studentDashboardFragment"
         android:name="com.example.edumanage.ui.student.StudentDashboardFragment"
         android:label="fragment_student_dashboard"
-        tools:layout="@layout/fragment_student_dashboard" />
+        tools:layout="@layout/fragment_student_dashboard">
+        <action
+            android:id="@+id/action_studentDashboardFragment_to_assignmentsFragment"
+            app:destination="@id/assignmentsFragment" />
+    </fragment>
     <fragment
         android:id="@+id/teacherFragment"
         android:name="com.example.edumanage.ui.teacher.TeacherFragment"
         android:label="fragment_teacher"
         tools:layout="@layout/fragment_teacher" />
+    <fragment
+        android:id="@+id/assignmentsFragment"
+        android:name="com.example.edumanage.assignment.AssignmentsFragment"
+        android:label="fragment_assignments"
+        tools:layout="@layout/fragment_assignments" />
 </navigation>
